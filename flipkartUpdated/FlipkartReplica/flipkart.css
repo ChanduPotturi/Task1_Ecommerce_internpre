@@ -1,0 +1,301 @@
+.header{
+    background-color: blue;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+
+
+/* Testimonial Section */
+
+/* #testimonials {
+    background-color: #ef8172;
+  } */
+.testimonials1{
+    background-color: rgb(245, 245, 245);
+}
+.testimonials2{
+    background-color:lightblue;
+}
+  .testimonial-text {
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: bold;
+    /* padding-left: 450px; */
+    text-align: center;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+
+    /* border-radius: 100%; */
+    margin: 20px;
+  }
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  .nav-link:hover{
+    transform:scale(1.5);
+  }
+  .social-icon {
+    margin: 20px 10px;
+  }
+  .social-icon:hover{
+    transform: scale(1.5);
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  .row{
+    width: 100%;
+    justify-content: center;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    /* background-image: url("/FlipkartReplica/FlipkartReplica/images/shoppp.jpg"); */
+  }
+  #rowcontent{
+
+    background-color: #f6f6f6b8;
+    position: relative;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    /* border: 1px solid rgb(179, 179, 179); */
+    /* box-shadow:  1px 1px 5px rgb(160, 159, 159); */
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    /* backdrop-filter: blur(10px); */
+    
+      }
+  #rowcontent h5{
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    left: 20px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    
+  }
+    .icon{
+    /* transform: scale(2.5);  */
+    position:absolute;
+      width: 40px;
+      max-height:50px ;
+      /* align-items: center;
+      align-content: center;
+      text-align: center;
+      justify-content: center; */
+
+    }
+
+.icon:hover{
+
+    /* transform: scale(1.5);  */
+    /* border: 2px groove blue; */
+    filter: drop-shadow(2px 2px 5px rgb(56, 55, 55));
+    transition: 0.3s ease-in-out;
+}
+h5:hover{
+    color: rgb(71, 172, 239);
+}
+
+
+/* shaji */
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body{
+  background-color: rgb(182, 217, 248);
+  margin:0px;
+  padding:0px;
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url("/FlipkartReplica/FlipkartReplica/images/shoppp.jpg");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+header{
+  width:100%;
+  padding-left:20px;
+  position: fixed;
+    background-color: rgb(255, 255, 255);
+   top:0px;
+   backdrop-filter: blur(100px);
+   z-index: +1;
+}
+.logo img{
+  width:100px;
+  filter: invert(2);
+
+}
+.searchBar{
+  position: absolute;
+  top:20%;
+  width: 200px;
+  /* max-height: 30px; */
+  border-radius:4px;
+  margin: auto;
+  transform: translateX(100%);
+  border: 1px groove rgb(104, 104, 104);
+  background-color: rgba(255, 255, 255, 0.522);
+  z-index: +10;
+  padding: 5px;
+  overflow-y: hidden;
+}
+.searchBar:focus {
+  outline-width: 0;
+}
+
+
+
+.profile{
+  /* display:flex; */
+  display: flex;
+  position: absolute;
+  margin: 5px;
+  top:0vh;
+  right:20px;
+  /* transform: scale(1.1); */
+
+  width:80px;
+  height: 50px;
+  background-color:rgb(242, 241, 241);
+  border-radius: 5px;
+  border: 1px groove rgb(214, 212, 212);
+  backdrop-filter: blur(20px);
+
+
+}
+.userPic img{
+  padding: 4px;
+  width: 30px;
+}
+.profile p{
+  position: absolute;
+  top:0px;
+  left:40px;
+}
+.card-img-top{
+  height: 250px;
+  width: 250px;
+}
+.card{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.btn-group{
+  float: left;
+}
+/* button1  */
+.buttons1{
+  border-radius: 5px solid;
+  width: 105.6px;
+}
+.buttons1::after {
+  content: "Buy ME";
+  }
+  .buttons1:hover::after {
+   content: "₹2,499";
+  }
+  
+  .buttons1:hover {
+  background-color: orange;
+  border: 0px solid #1292e1;
+  color: white !important;
+  }
+/* button2  */
+  .buttons2{
+    border-radius: 5px solid;
+    width: 105.6px;
+  }
+  .buttons2::after {
+    content: "Buy ME";
+    }
+    .buttons2:hover::after {
+     content: "₹599";
+    }
+    
+    .buttons2:hover {
+    background-color: orange;
+    border: 0px solid #1292e1;
+    color: white !important;
+    }
+
+/* button3  */
+    .buttons3{
+      border-radius: 5px solid;
+      width: 105.6px;
+    }
+    .buttons3::after {
+      content: "Buy ME";
+      }
+      .buttons3:hover::after {
+       content: "₹1,999";
+      }
+      
+      .buttons3:hover {
+      background-color: orange;
+      border: 0px solid #1292e1;
+      color: white !important;
+      }
+/* button4 */
+      .buttons4{
+      border-radius: 5px solid;
+        width: 105.6px;
+      }
+      .buttons4::after {
+        content: "Buy ME";
+        }
+        .buttons4:hover::after {
+         content: "₹25,999";
+        }
+        
+        .buttons4:hover {
+        background-color: orange;
+        border: 0px solid #1292e1;
+        color: white !important;
+        }
+.card{
+  border-radius: 10px;
+  background-color: #f6f6f6b8;
+
+}
+.secondbuttton{
+  border-radius: 5px solid;
+}
